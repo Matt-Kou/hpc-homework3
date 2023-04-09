@@ -8,3 +8,7 @@
 1. It would be much better when $\exists i^*$ s.t. $f(i^*)$ is much slower than others. In that way, during the execution of that $f(i^*)$, other threads would continue to run other $f(i)$ instead of being blocked and wait for $f(i^*)$ to finish.
 
 1. nowait
+
+## Machine Architecture
+
+I am using a intel-cpu windows machine with i9-12900H with 14 cores and 20 logical processors.
